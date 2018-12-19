@@ -1,8 +1,8 @@
 linkPrefix = ""
-name = "tokens-funds-manager"
+name = "security-token"
 version = "1.0.0"
 description = ""
-buildTime = 2018-12-19T02:17:14.357Z
+buildTime = 2018-12-19T08:18:59.850Z
 target = "doxity"
 src = "contracts/*"
 dir = "pages/docs"
