@@ -1,0 +1,13 @@
+linkPrefix = ""
+name = "tokens-funds-manager"
+version = "1.0.0"
+description = ""
+buildTime = 2018-12-19T02:17:14.357Z
+target = "doxity"
+src = "contracts/*"
+dir = "pages/docs"
+out = "docs"
+author = ""
+license = "ISC"
+
+[interaction]

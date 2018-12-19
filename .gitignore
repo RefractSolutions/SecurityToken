@@ -1,0 +1,6 @@
+node_modules
+dist
+package-lock.json
+doxity/node_modules
+doxity/yarn.lock
+doxity/package-lock.json
