@@ -23,7 +23,6 @@ This standard tries to improve the widely used ERC20 and ERC777 tokens standard.
 4. Compatability with ERC20 and ERC777
 5. Flexability to use for exchanges and escrow but prevent abuse
 
-
 ## Sending Tokens
 
 * Send addresses optionally could be whitelisted to prevent non regulating activities
@@ -37,6 +36,12 @@ This standard tries to improve the widely used ERC20 and ERC777 tokens standard.
 ## Burn tokens
 
 * Tokens can be burned by assigned operator which is authorized by token contract owner
+
+## Deposit only addresses
+
+* A seperate whitelist is maintained specifically for deposit only addresses. Most cryptocurrency exchanges currently generate a unique specific eth address for each user to deposit their tokens. 
+* Deposit only addresses can only be added by exchange operators
+* Deposit addresses can only send tokens to whitelisted addresses by the issuer. They cannot send to another deposit address.
 
 ## More Information
 
