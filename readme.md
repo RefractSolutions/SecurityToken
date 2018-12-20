@@ -45,6 +45,14 @@ This standard tries to improve the widely used ERC20 and ERC777 tokens standard.
 
 ## More Information
 
+Sample Implementation (On Kovan)
+https://kovan.etherscan.io/token/0xfff2c7ac2fcd0d05a56323cd39272505c8c020c4
+
+[Issuer] 0xd0a9a166e4dad3a314148e03451ba20e08cce172	
+[Investor] 0xe694ca0238f5771eec6e4b4ef44b6e4fa59811c6	
+[Exchange Deposit address]	0x213353406af8bc04023e497a9997903509615718	
+[Exchange Hot Wallet]	0xc77226e6117c7e86366597f80a3762ba7704a436
+
 [Please see ERC777 standard](https://eips.ethereum.org/EIPS/eip-777)
 
 [Also plese see contract functions API](https://pinnacleone.github.io/docs/SecurityToken/)
