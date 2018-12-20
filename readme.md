@@ -22,6 +22,7 @@ This standard tries to improve the widely used ERC20 and ERC777 tokens standard.
 3. Transparency
 4. Compatability with ERC20 and ERC777
 5. Flexability to use for exchanges and escrow but prevent abuse
+6. Ability to add legal document titles and links 
 
 ## Sending Tokens
 
