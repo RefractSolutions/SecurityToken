@@ -21,7 +21,7 @@ This standard tries to improve the widely used ERC20 and ERC777 tokens standard.
 2. More powerful control
 3. Transparency
 4. Compatability with ERC20 and ERC777
-5. Flexability to use for exchanges and escrow but prevent abuse
+5. Flexability to use for exchanges and escrow but prevent abuse 
 6. Ability to add legal document titles and links 
 
 ## Sending Tokens
@@ -29,6 +29,7 @@ This standard tries to improve the widely used ERC20 and ERC777 tokens standard.
 * Send addresses optionally could be whitelisted to prevent non regulating activities
 * Issuer can appoit a 3rd party representive (e.g. legal trustee, law enforcement) to manaage a token holder token balance 
 * Any token holder address can be frozen to send by token contract owner
+* Recieving addresses are checked against the issuer whitelist to ensure they are legally allowed to recieve token. 
 
 ## Mint tokens
 
