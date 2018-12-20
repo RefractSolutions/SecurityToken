@@ -27,7 +27,7 @@ This standard tries to improve the widely used ERC20 and ERC777 tokens standard.
 ## Sending Tokens
 
 * Send addresses optionally could be whitelisted to prevent non regulating activities
-* Regulating operator can be assigned to ech token holder to send and burn tokens
+* Issuer can appoit a 3rd party representive (e.g. legal trustee, law enforcement) to manaage a token holder token balance 
 * Any token holder address can be frozen to send by token contract owner
 
 ## Mint tokens
