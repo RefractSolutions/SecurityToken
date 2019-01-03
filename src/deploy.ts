@@ -2,20 +2,13 @@ import Web3 from 'web3'
 import EthereumTx from 'ethereumjs-tx'
 import * as env from 'dotenv'
 import * as contractData from './contracts/SecurityToken.json'
+import { setTokenTx } from './sendTx'
 
 env.config()
 
-const setTokenTx = (nonce: number,data: string) => 
-        ({
-            nonce,
-            from: process.env.DEPLOYER_ADDRESS,
-            to: undefined,
-            value: '0x00',
-            data
-        })
-
     const sendTx = async () => {
             const web3 = new Web3(new Web3.providers.HttpProvider(process.env.WEB3_PROVIDER!))
+         
             const eth = web3.eth
             
             const contract = new eth.Contract(contractData.abi)
