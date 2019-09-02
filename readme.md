@@ -1,4 +1,4 @@
-# Katalyse Security Token
+# Security Token Integrated with Lucent (Cezex) Exchange
 
 ## Abstract
 
